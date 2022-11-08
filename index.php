@@ -9,4 +9,6 @@ require_once "vendor/autoload.php";
 
 use HelloWorld\SayHello;
 
+echo bonjour;
+
 echo SayHello::world();
