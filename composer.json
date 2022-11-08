@@ -1,0 +1,10 @@
+{
+    "name": "welldone/monprojetinfogerance",
+    "description": "Mon projet des stages AP",
+    "type": "project",
+    "minimum-stability": "stable",
+    "require": {
+        "ehime/hello-world": "^1.0",
+        "guzzlehttp/guzzle": "7.5.0"
+    }
+}
