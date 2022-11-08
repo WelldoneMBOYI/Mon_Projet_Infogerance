@@ -10,5 +10,5 @@ require_once "vendor/autoload.php";
 use HelloWorld\SayHello;
 
 echo bonjour;
-
+echo "Bonjour encore";
 echo SayHello::world();
