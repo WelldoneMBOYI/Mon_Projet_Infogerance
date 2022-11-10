@@ -5,7 +5,7 @@
 <head>
    <meta charset="utf-8">
    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-   <title>Tableau de bord Admin</title>
+   <title><?= $titreAdmin; ?></title>
    <meta name="robots" content="noindex, nofollow">
    <meta content="" name="description">
    <meta content="" name="keywords">
@@ -13,14 +13,14 @@
    <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
    <link href="/https://fonts.gstatic.com" rel="preconnect">
    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-   <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-   <link href="/assets/css/bootstrap-icons.css" rel="stylesheet">
-   <link href="/assets/css/boxicons.min.css" rel="stylesheet">
-   <link href="/assets/css/quill.snow.css" rel="stylesheet">
-   <link href="/assets/css/quill.bubble.css" rel="stylesheet">
-   <link href="/assets/css/remixicon.css" rel="stylesheet">
-   <link href="/assets/css/simple-datatables.css" rel="stylesheet">
-   <link href="/assets/css/style.css" rel="stylesheet">
+   <link href="/assets/assets_template/css/bootstrap.min.css" rel="stylesheet">
+   <link href="/assets/assets_template/css/bootstrap-icons.css" rel="stylesheet">
+   <link href="/assets/assets_template/css/boxicons.min.css" rel="stylesheet">
+   <link href="/assets/assets_template/css/quill.snow.css" rel="stylesheet">
+   <link href="/assets/assets_template/css/quill.bubble.css" rel="stylesheet">
+   <link href="/assets/assets_template/css/remixicon.css" rel="stylesheet">
+   <link href="/assets/assets_template/css/simple-datatables.css" rel="stylesheet">
+   <link href="/assets/assets_template/css/style.css" rel="stylesheet">
    <link href='/https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
@@ -88,7 +88,7 @@
                </ul>
             </li>
             <li class="nav-item dropdown pe-3">
-               <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown"> <img src="/assets/img/photo.jpg" alt="Profile" class="rounded-circle"> <span class="d-none d-md-block dropdown-toggle ps-2">Admin</span> </a>
+               <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown"> <img src="/assets/assets_template/img/photo.jpg" alt="Profile" class="rounded-circle"> <span class="d-none d-md-block dropdown-toggle ps-2">Admin</span> </a>
                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                   <li class="dropdown-header">
                      <h6>Welldone</h6>
@@ -148,7 +148,7 @@
             <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                <li> <a href="tables-general.html"> <i class="bi bi-circle"></i><span>Licences</span> </a></li>
                <li> <a href="tables-data.html"> <i class="bi bi-circle"></i><span>Budgets</span> </a></li>
-               <li> <a href="tables-data.html"> <i class="bi bi-circle"></i><span>CLients</span> </a></li>
+               <li> <a href="/views/management_client/accueil.client.view.php"> <i class="bi bi-circle"></i><span>CLients</span> </a></li>
                <li> <a href="tables-data.html"> <i class="bi bi-circle"></i><span>Contrats</span> </a></li>
                <li> <a href="tables-data.html"> <i class="bi bi-circle"></i><span>Documents</span> </a></li>
                <li> <a href="tables-data.html"> <i class="bi bi-circle"></i><span>Logiciels</span> </a></li>
@@ -398,15 +398,15 @@
    </footer>
    <!-- Ce lien fait l'icon qui permet de remonter plus haut -->
    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-   <script src="/assets/js/apexcharts.min.js"></script>
-   <script src="/assets/js/bootstrap.bundle.min.js"></script>
-   <script src="/assets/js/chart.min.js"></script>
-   <script src="/assets/js/echarts.min.js"></script>
-   <script src="/assets/js/quill.min.js"></script>
-   <script src="/assets/js/simple-datatables.js"></script>
-   <script src="/assets/js/tinymce.min.js"></script>
-   <script src="/assets/js/validate.js"></script>
-   <script src="/assets/js/main.js"></script>
+   <script src="/assets/assets_template/js/apexcharts.min.js"></script>
+   <script src="/assets/assets_template/js/bootstrap.bundle.min.js"></script>
+   <script src="/assets/assets_template/js/chart.min.js"></script>
+   <script src="/assets/assets_template/js/echarts.min.js"></script>
+   <script src="/assets/assets_template/js/quill.min.js"></script>
+   <script src="/assets/assets_template/js/simple-datatables.js"></script>
+   <script src="/assets/assets_template/js/tinymce.min.js"></script>
+   <script src="/assets/assets_template/js/validate.js"></script>
+   <script src="/assets/assets_template/js/main.js"></script>
 
 </body>
 

@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <p><a href="/views/page.login.template2.view.php">connexion</a></p>
-    <p><a href="/views/dashboard.admin.template.view.php">Tableau de bord Amin</a></p>
-    <p><a href="/views/dashboard.user.template.view.php">Tableau de bord User</a></p>
+    <p><a href="/views/view_login/page.login1.view.php">connexion</a></p>
+    <p><a href="/views/view_admin/dashboard.admin.template.view.php">Tableau de bord Amin</a></p>
+    <p><a href="/views/view_collaborateur/dashboard.user.template.view.php">Tableau de bord User</a></p>
 </body>
 
 </html>
