@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container divClient">
     <div class="title">Inscription</div>
     <div class="content">
       <form action="#">
@@ -66,11 +66,12 @@
       </form>
     </div>
   </div>
-
-  <footer id="footer" class="footer">
-    <div class="copyright"> Réalisé par Welldone MBOYI <strong><span>Developper</span></strong>. Merci infiniment</div>
-    <div class="credits">Entreprise Informatique <a href="https://freeetemplates.com/">IT CORP</a></div>
-  </footer>
+  <div class="footerClient">
+    <footer id="footer">
+      <div class="copyright"> Réalisé par Welldone MBOYI <strong><span>Developper</span></strong>. Merci infiniment</div><br>
+      <div class="credits">Entreprise Informatique <a href="https://freeetemplates.com/">IT CORP</a></div>
+    </footer>
+  </div>
 
 </body>
 

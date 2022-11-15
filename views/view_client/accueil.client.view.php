@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="/assets/assets_client/accueil.client.style.css">
     <!-- <link rel="stylesheet" href="/assets/css/style.css"> -->
 
+    <!-- Style des card de la page d'accueil du cliet -->
+    <link rel="stylesheet" href="/assets/assets_client/card.client.style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <!-- ===== Boxicons CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
@@ -56,11 +59,126 @@
             </div>
         </div>
     </nav>
+    <!-- Debut du card des clients -->
+    <div class="container">
+        <div class="box">
+            <div class="image">
+                <img src="/assets/assets_client/photo1.jpg">
+            </div>
+            <div class="name_job">David Chrish</div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p>
+            <div class="btns">
+                <button>Modifier</button>
+                <button>Mettre à jour</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="/assets/assets_client/photo2.jpg" alt="">
+            </div>
+            <div class="name_job">Kristina Bellis</div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p>
+            <div class="btns">
+                <button>Modifier </button>
+                <button>Mettre à jour</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="/assets/assets_client/photo3.jpg" alt="">
+            </div>
+            <div class="name_job">Stephen Marlo</div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p>
+            <div class="btns">
+                <button>Modifier</button>
+                <button>Mettre à jour</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <div class="image">
+                <img src="/assets/assets_client/photo1.jpg">
+            </div>
+            <div class="name_job">David Chrish</div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p>
+            <div class="btns">
+                <button>Modifier</button>
+                <button>Mettre à jour</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="/assets/assets_client/photo2.jpg" alt="">
+            </div>
+            <div class="name_job">Kristina Bellis</div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p>
+            <div class="btns">
+                <button>Modifier </button>
+                <button>Mettre à jour</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="/assets/assets_client/photo3.jpg" alt="">
+            </div>
+            <div class="name_job">Stephen Marlo</div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p>
+            <div class="btns">
+                <button>Modifier</button>
+                <button>Mettre à jour</button>
+            </div>
+        </div>
+    </div>
 
-    <footer id="footer" class="footer">
-        <div class="copyright"> Réalisé par Welldone MBOYI <strong><span>Developper</span></strong>. Merci infiniment</div>
-        <div class="credits">Entreprise Informatique <a href="https://freeetemplates.com/">IT CORP</a></div>
-    </footer>
+    <!-- <div class="footerClient">
+        <footer id="footer">
+            <div class="copyright"> Réalisé par Welldone MBOYI <strong><span>Developper</span></strong>. Merci infiniment</div><br>
+            <div class="credits">Entreprise Informatique <a href="https://freeetemplates.com/">IT CORP</a></div>
+        </footer>
+    </div> -->
     <script src="/assets/assets_client/accueil.client.script.js"></script>
 
 </body>

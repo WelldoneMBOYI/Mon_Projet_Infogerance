@@ -13,7 +13,7 @@
 /* ===== Colours ===== */
 :root{
     --body-color: #E4E9F7;
-    --nav-color: #4070F4;
+    --nav-color: #8e44ad;
     --side-nav: #010718;
     --text-color: #FFF;
     --search-bar: #F2F2F2;
@@ -288,4 +288,11 @@ body.dark .search-field i{
         display: block;
         margin-top: 20px;
     }
+}
+.footerClient{
+    margin-top: 500px;
+    padding: 10px;
+    margin-top: 41.9%;
+    margin-left: 30%;
+    position: fixed;
 }

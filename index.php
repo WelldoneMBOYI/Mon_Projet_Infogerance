@@ -19,7 +19,7 @@ try {
         switch ($url) {
             case "login":
                 $titreLogin = $router->getTitreLogin();
-                include 'views/view_login/page.login1.view.php';
+                include 'views/view_login/page.login.myself.view.php';
                 break;
             case "admin":
                 $titreAdmin = $router->getTitreAdmin();

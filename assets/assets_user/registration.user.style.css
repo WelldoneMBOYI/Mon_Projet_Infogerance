@@ -168,3 +168,8 @@ form .buttons button , .backBtn{
         width: 100%;
     }
 }
+.footerClient{
+	padding-top: 100px;
+	margin-bottom: 10px;
+	  /* margin-left: ; */
+  }
