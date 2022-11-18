@@ -1,5 +1,3 @@
 <?php
- $email = "admin@";
- $password = "admin";
-
- if(isset($_POST['']))
+$email = "admin@";
+$password = "admin";
