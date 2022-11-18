@@ -23,20 +23,20 @@
             <div class="form login">
                 <span class="title">Connexion</span>
 
-                <form action="/views/acceuil.view.php">
+                <form action="/controllers/controller.login1.php" method="POST">
                     <div class="input-field">
-                        <input type="text" placeholder="Entrer votre email" required>
+                        <input type="text" placeholder="Entrer votre email" name="email" required>
                         <i class="uil uil-envelope icon"></i>
                     </div>
                     <div class="input-field">
-                        <input type="password" class="password" placeholder="Entrer votre mot de passe" required>
+                        <input type="password" class="password" placeholder="Entrer votre mot de passe" name="password" required>
                         <i class="uil uil-lock icon"></i>
                         <i class="uil uil-eye-slash showHidePw"></i>
                     </div>
 
                     <div class="checkbox-text">
                         <div class="checkbox-content">
-                            <input type="checkbox" id="logCheck">
+                            <input type="checkbox" id="logCheck" name="logCheck">
                             <label for="logCheck" class="text">Se souvenir</label>
                         </div>
 
@@ -44,7 +44,7 @@
                     </div>
 
                     <div class="input-field button">
-                        <input type="submit" value="Connexion">
+                        <input type="submit" value="Connexion" name="submit">
                     </div>
                 </form>
 

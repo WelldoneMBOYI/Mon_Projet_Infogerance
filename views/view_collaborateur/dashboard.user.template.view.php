@@ -12,7 +12,6 @@
    <link href="/assets/img/favicon.png" rel="icon">
    <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
    <link href="/https://fonts.gstatic.com" rel="preconnect">
-   <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
    <link rel="stylesheet" href="/assets/assets_icons/css.css">
    <link href="/assets/assets_template/css/bootstrap.min.css" rel="stylesheet">
    <link href="/assets/assets_template/css/bootstrap-icons.css" rel="stylesheet">
@@ -23,9 +22,7 @@
    <link href="/assets/assets_template/css/simple-datatables.css" rel="stylesheet">
    <link href="/assets/assets_template/css/style.css" rel="stylesheet">
    <link rel="stylesheet" href="/assets/assets_icons/boxicons.min.css">
-   <!-- <link href='/https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'> -->
    <link rel="stylesheet" href="/node_modules/boxicons/css/boxicons.min.css">
-   <!-- <link rel="stylesheet" href="/assets/assets_boostrap/css/bootstrap.min.css"> -->
 </head>
 
 <body>
@@ -143,7 +140,7 @@
                         </ul>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#"> <i class='bx bx-headphone'></i><span>Assistance</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+                        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#"><i class='bx bx-support'></i><span>Assistance</span><i class="bi bi-chevron-down ms-auto"></i> </a>
                         <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                            <li> <a href="forms-layouts.html"> <i class="bi bi-circle"></i><span>Rapports</span> </a></li>
                            <li> <a href="forms-validation.html"> <i class="bi bi-circle"></i><span>Planning</span> </a></li>
@@ -181,7 +178,7 @@
       <!-- Premier container -->
       <div class="container-fluid">
          <!-- Premiere ligne -->
-         <div class="row maDiv mt-4">
+         <div class="row maDiv mt-1">
             <!-- Col1 de la premiere ligne -->
             <div class="col-sm mt-4">
                <div class="mb-3">
@@ -191,40 +188,59 @@
             <!-- Col2 de la premiere ligne -->
             <div class="col-sm mt-4">
                <div class="mb-3">
-                  <div class="mb-3 mt-4">
-                     <div class="card" style="width: 20rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                           <h5 class="card-title">Ordinateur</h5>
-                           <p class="card-text">La liste des ordinateurs present dans le parc.</p>
-                           <div class="d-flex justify-content-around">
-                              <span class="d-flex justify-content-start m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
-                           </div>
-                        </div>
+                  <div class="card mt-5 text-center maCard maPosition" style="width: 20rem;">
+                     <div class="card-header">
+                        <i class='bx bx-laptop'></i>
+                        <strong>
+                           <div class="label">Les Ordinateurs</div>
+                        </strong>
+                     </div>
+                     <div class=" card-body">
+                        <h5 class="card-title">Nombre Total</h5>
+                        <p class="card-text">With supporting text bent.</p>
+                        <a href="#" class="btn btn-primary text-center">Voir plus</a>
                      </div>
                   </div>
-                  <div class="mb-3">
-                     <div class="card mt-4" style="width: 20rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                           <h5 class="card-title">Ordinateur</h5>
-                           <p class="card-text">Some quick exae card title acard's content.</p>
-                           <div class="d-flex justify-content-around">
-                              <span class="d-flex justify-content-start m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
-                           </div>
-                        </div>
+                  <div class="row"></div>
+                  <div class="card mt-1 text-center maCard  maPosition" style="width: 20rem;">
+                     <div class="card-header">
+                        <i class='bx bx-radar'></i>
+                        <strong>
+                           <div class="label">Les Licences</div>
+                        </strong>
+                     </div>
+                     <div class=" card-body">
+                        <h5 class="card-title">Nombre Total</h5>
+                        <p class="card-text">With supporting text bent.</p>
+                        <a href="#" class="btn btn-primary text-center">Voir plus</a>
                      </div>
                   </div>
-                  <div class="mb-3">
-                     <div class="card mt-4" style="width: 20rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                           <h5 class="card-title">Ordinateur</h5>
-                           <p class="card-text">Some quick exae card title acard's content.</p>
-                           <div class="d-flex justify-content-around">
-                              <span class="d-flex justify-content-start m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
-                           </div>
-                        </div>
+                  <div class="row"></div>
+                  <div class="card mt-1 text-center maCard  maPosition" style="width: 20rem;">
+                     <div class="card-header">
+                        <i class='bx bx-radar'></i>
+                        <strong>
+                           <div class="label">Les Logiciels</div>
+                        </strong>
+                     </div>
+                     <div class=" card-body">
+                        <h5 class="card-title">Nombre Total</h5>
+                        <p class="card-text">With supporting text bent.</p>
+                        <a href="#" class="btn btn-primary text-center">Voir plus</a>
+                     </div>
+                  </div>
+                  <div class="row"></div>
+                  <div class="card mt-1 text-center maCard  maPosition" style="width: 20rem;">
+                     <div class="card-header">
+                        <i class='bx bx-infinite'></i>
+                        <strong>
+                           <div class="label">Les Liens externes</div>
+                        </strong>
+                     </div>
+                     <div class=" card-body">
+                        <h5 class="card-title">Nombre Total</h5>
+                        <p class="card-text">With supporting text bent.</p>
+                        <a href="#" class="btn btn-primary text-center">Voir plus</a>
                      </div>
                   </div>
                </div>
@@ -232,121 +248,185 @@
             <!-- Col3 de la premiere ligne -->
             <div class="col-sm mt-4">
                <div class="mb-3">
-                  <div class="card mt-4" style="width: 20rem;">
-                     <img src="..." class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Ordinateur</h5>
-                        <p class="card-text">Some quick exae card title acard's content.</p>
-                        <div class="d-flex justify-content-around">
-                           <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
-                        </div>
+                  <div class="card mt-5 text-center maCard" style="width: 20rem;">
+                     <div class="card-header">
+                        <i class='bx bx-printer'></i>
+                        <strong>
+                           <div class="label">Les Imprimantes</div>
+                        </strong>
+                     </div>
+                     <div class=" card-body">
+                        <h5 class="card-title">Nombre Total</h5>
+                        <p class="card-text">With supporting text bent.</p>
+                        <a href="#" class="btn btn-primary text-center">Voir plus</a>
                      </div>
                   </div>
-               </div>
-               <div class="mb-3">
-                  <div class="card mt-4" style="width: 20rem;">
-                     <img src="..." class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Ordinateur</h5>
-                        <p class="card-text">Some quick exae card title acard's content.</p>
-                        <div class="d-flex justify-content-around">
-                           <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
-                        </div>
+                  <div class="row"></div>
+                  <div class="card mt-1 text-center maCard" style="width: 20rem;">
+                     <div class="card-header">
+                        <i class='bx bxs-error'></i>
+                        <strong>
+                           <div class="label text-white bg-danger">Les Incidents</div>
+                        </strong>
+                     </div>
+                     <div class=" card-body">
+                        <h5 class="card-title">Nombre Total</h5>
+                        <p class="card-text">With supporting text bent.</p>
+                        <a href="#" class="btn btn-primary text-center">Voir plus</a>
                      </div>
                   </div>
-               </div>
-               <div class="mb-3">
-                  <div class="card mt-4" style="width: 20rem;">
-                     <img src="..." class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Ordinateur</h5>
-                        <p class="card-text">Some quick exae card title acard's content.</p>
-                        <div class="d-flex justify-content-around">
-                           <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
-                        </div>
+                  <div class="row"></div>
+                  <div class="card mt-1 text-center maCard" style="width: 20rem;">
+                     <div class="card-header">
+                        <i class='bx bx-group'></i>
+                        <strong>
+                           <div class="label">Les Clients</div>
+                        </strong>
+                     </div>
+                     <div class=" card-body">
+                        <h5 class="card-title">Nombre Total</h5>
+                        <p class="card-text">With supporting text bent.</p>
+                        <a href="#" class="btn btn-primary text-center">Voir plus</a>
+                     </div>
+                  </div>
+                  <div class="row"></div>
+                  <div class="card mt-1 text-center maCard" style="width: 20rem;">
+                     <div class="card-header">
+                        <i class='bx bx-edit-alt'></i>
+                        <strong>
+                           <div class="label">Les Rapports</div>
+                        </strong>
+                     </div>
+                     <div class=" card-body">
+                        <h5 class="card-title">Nombre Total</h5>
+                        <p class="card-text">With supporting text bent.</p>
+                        <a href="#" class="btn btn-primary text-center">Voir plus</a>
                      </div>
                   </div>
                </div>
             </div>
             <!-- Col4 de la premiere ligne -->
             <div class="col-sm mt-4">
-               <div class="mb-3 mt-4">
-                  <div class="card" style="width: 20rem;">
-                     <img src="..." class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Ordinateur</h5>
-                        <p class="card-text">Some quick exae card title acard's content.</p>
-                        <div class="d-flex justify-content-around">
-                           <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
-                        </div>
+               <div class="mb-3">
+                  <div class="card mt-5 text-center maCard" style="width: 20rem;">
+                     <div class="card-header">
+                        <i class='bx bxl-microsoft-teams'></i>
+                        <strong>
+                           <div class="label">Les Projets Infogerance</div>
+                        </strong>
+                     </div>
+                     <div class=" card-body">
+                        <h5 class="card-title">Nombre Total</h5>
+                        <p class="card-text">With supporting text bent.</p>
+                        <a href="#" class="btn btn-primary text-center">Voir plus</a>
                      </div>
                   </div>
-               </div>
-               <div class="mb-3">
-                  <div class="card mt-4" style="width: 20rem;">
-                     <img src="..." class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Ordinateur</h5>
-                        <p class="card-text">Some quick exae card title acard's content.</p>
-                        <div class="d-flex justify-content-around">
-                           <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
-                        </div>
+                  <div class="row"></div>
+                  <div class="card mt-1 text-center maCard" style="width: 20rem;">
+                     <div class="card-header">
+                        <i class='bx bxl-stack-overflow'></i>
+                        <strong>
+                           <div class="label">Les Statistiques</div>
+                        </strong>
+                     </div>
+                     <div class=" card-body">
+                        <h5 class="card-title">Nombre Total</h5>
+                        <p class="card-text">With supporting text bent.</p>
+                        <a href="#" class="btn btn-primary text-center">Voir plus</a>
                      </div>
                   </div>
-               </div>
-               <div class="mb-3">
-                  <div class="card mt-4" style="width: 20rem;">
-                     <img src="..." class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Ordinateur</h5>
-                        <p class="card-text">Some quick exae card title acard's content.</p>
-                        <div class="d-flex justify-content-around">
-                           <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
-                        </div>
+                  <div class="row"></div>
+                  <div class="card mt-1 text-center maCard" style="width: 20rem;">
+                     <div class="card-header">
+                        <i class='bx bxs-message-edit'></i>
+                        <strong>
+                           <div class="label">Les Historiques</div>
+                        </strong>
+                     </div>
+                     <div class=" card-body">
+                        <h5 class="card-title">Nombre Total</h5>
+                        <p class="card-text">With supporting text bent.</p>
+                        <a href="#" class="btn btn-primary text-center">Voir plus</a>
+                     </div>
+                  </div>
+                  <div class="row"></div>
+                  <div class="card mt-1 text-center maCard" style="width: 20rem;">
+                     <div class="card-header">
+                        <i class='bx bx-clipboard'></i>
+                        <strong>
+                           <div class="label">Les Contrats</div>
+                        </strong>
+                     </div>
+                     <div class=" card-body">
+                        <h5 class="card-title">Nombre Total</h5>
+                        <p class="card-text">With supporting text bent.</p>
+                        <a href="#" class="btn btn-primary text-center">Voir plus</a>
                      </div>
                   </div>
                </div>
             </div>
             <!-- Col5 de la premiere ligne -->
             <div class="col-sm mt-4">
-               <div class="mb-3 mt-4">
-                  <div class="card" style="width: 20rem;">
-                     <img src="..." class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Ordinateur</h5>
-                        <p class="card-text">Some quick exae card title acard's content.</p>
-                        <div class="d-flex justify-content-around">
-                           <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
-                        </div>
+               <div class="mb-3">
+                  <div class="card mt-5 text-center maCard" style="width: 20rem;">
+                     <div class="card-header">
+                        <i class='bx bx-error-circle'></i>
+                        <strong>
+                           <div class="label">Les Pannes</div>
+                        </strong>
+                     </div>
+                     <div class=" card-body">
+                        <h5 class="card-title">Nombre Total</h5>
+                        <p class="card-text">With supporting text bent.</p>
+                        <a href="#" class="btn btn-primary text-center">Voir plus</a>
                      </div>
                   </div>
-               </div>
-               <div class="mb-3">
-                  <div class="card mt-4" style="width: 20rem;">
-                     <img src="..." class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Ordinateur</h5>
-                        <p class="card-text">Some quick exae card title acard's content.</p>
-                        <div class="d-flex justify-content-around">
-                           <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
-                        </div>
+                  <div class="row"></div>
+                  <div class="card mt-1 text-center maCard" style="width: 20rem;">
+                     <div class="card-header">
+                        <i class='bx bx-rfid'></i>
+                        <stron>
+                           <div class="label">Les Appareils Reseaux</div>
+                        </stron>
+                     </div>
+                     <div class=" card-body">
+                        <h5 class="card-title">Nombre Total</h5>
+                        <p class="card-text">With supporting text bent.</p>
+                        <a href="#" class="btn btn-primary text-center">Voir plus</a>
                      </div>
                   </div>
-               </div>
-               <div class="mb-3">
-                  <div class="card mt-4" style="width: 20rem;">
-                     <img src="..." class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Ordinateur</h5>
-                        <p class="card-text">Some quick exae card title acard's content.</p>
-                        <div class="d-flex justify-content-around">
-                           <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
-                        </div>
+                  <div class="row"></div>
+                  <div class="card mt-1 text-center bg-danger-light maCard" style="width: 20rem;">
+                     <div class="card-header">
+                        <i class="bx bx-user"></i>
+                        <strong>
+                           <div class="label">Les Collaborateurs</div>
+                        </strong>
+                     </div>
+                     <div class=" card-body">
+                        <h5 class="card-title">Nombre Total:</h5>
+                        <p class="card-text">With supporting.</p>
+                        <a href="#" class="btn btn-primary text-center">Voir plus</a>
+                     </div>
+                  </div>
+                  <div class="row"></div>
+                  <div class="card mt-1 text-center maCard" style="width: 20rem;">
+                     <div class="card-header">
+                        <i class='bx bx-category-alt'></i>
+                        <strong>
+                           <div class="label">Les Parcs</div>
+                        </strong>
+                     </div>
+                     <div class=" card-body">
+                        <h5 class="card-title">Nombre Total</h5>
+                        <p class="card-text">With supporting text bent.</p>
+                        <a href="#" class="btn btn-primary text-center">Voir plus</a>
                      </div>
                   </div>
                </div>
             </div>
    </section>
+
 
    <footer id="footer" class="footer bg-white">
       <div class="copyright"> Réalisé par Welldone MBOYI <strong><span>Developper</span></strong>. Merci infiniment</div>

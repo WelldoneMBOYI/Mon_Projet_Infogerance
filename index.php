@@ -1,5 +1,5 @@
 <?php
-include 'models/public/routers/Router.Class.php';
+include 'models/public/Router.Class.php';
 // use monNamespaceRouter;
 use monNamespaceRouter\Router;
 
@@ -40,6 +40,10 @@ try {
             case "user":
                 $titreUser = $router->getTitreUser();
                 include 'views/view_collaborateur/dashboard.user.template.view.php';
+                break;
+            case "pc":
+                $titreUser = $router->getTitreUser();
+                include 'views/view_admin/boarb.computer.view.php';
                 break;
             default:
                 throw new Exception("Erreur 404, la page n'existe pas svp!");
