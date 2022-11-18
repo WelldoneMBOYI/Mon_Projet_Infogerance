@@ -14,6 +14,11 @@ class ComposerStaticInitbc04593509d4a87b42f84c07cf864f5a
     );
 
     public static $prefixLengthsPsr4 = array (
+        'm' => 
+        array (
+            'monNamespaceRouter\\' => 19,
+            'monNamespaceController\\' => 23,
+        ),
         'P' => 
         array (
             'Psr\\Http\\Message\\' => 17,
@@ -28,10 +33,18 @@ class ComposerStaticInitbc04593509d4a87b42f84c07cf864f5a
     );
 
     public static $prefixDirsPsr4 = array (
+        'monNamespaceRouter\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/routers',
+        ),
+        'monNamespaceController\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/controllers',
+        ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
