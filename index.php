@@ -1,5 +1,9 @@
 <?php
+<<<<<<< HEAD
 include 'models/public/Router.Class.php';
+=======
+include 'models/public/routers/Router.Class.php';
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53
 // use monNamespaceRouter;
 use monNamespaceRouter\Router;
 
@@ -41,10 +45,13 @@ try {
                 $titreUser = $router->getTitreUser();
                 include 'views/view_collaborateur/dashboard.user.template.view.php';
                 break;
+<<<<<<< HEAD
             case "pc":
                 $titreUser = $router->getTitreUser();
                 include 'views/view_admin/boarb.computer.view.php';
                 break;
+=======
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53
             default:
                 throw new Exception("Erreur 404, la page n'existe pas svp!");
                 include 'views/view_exception/page.error.template.view.php';

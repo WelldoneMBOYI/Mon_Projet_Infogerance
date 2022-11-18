@@ -9,10 +9,17 @@
 	font-family: "Open Sans", sans-serif;
 	background: #d7dae0;
 	color:black;
+<<<<<<< HEAD
   }
   .maDiv{
 	  background:  #d7dae0;;
   }
+=======
+  }
+  .maDiv{
+	  background:  #d7dae0;;
+  }  
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53
   a {
 	color: #4154f1;
 	text-decoration: none;
@@ -53,6 +60,7 @@
 		margin-right: 10px;
 		background: #fff;
 		border-radius: 10px;
+<<<<<<< HEAD
 
   }
   .maCard{
@@ -60,12 +68,22 @@
 	margin-right: 10px;
 	background:#fff;
 	border-radius: 100px;
+=======
+	
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53
   }
   .pagetitle h5 {
 	font-size: 24px;
 	margin-bottom: 0;
 	font-weight: 600;
 	color:black;
+<<<<<<< HEAD
+=======
+  }
+  .pagetitle th {
+	/* font-size: 24px; */
+	color:black;
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53
   }
   .pagetitle th {
 	/* font-size: 24px; */
@@ -1061,6 +1079,7 @@
 	font-size: 13px;
 	color: #012970;
   }
+<<<<<<< HEAD
 
   .maCard .bx {
 	font-size: 95px;
@@ -1079,3 +1098,6 @@
   .maPosition{
 	margin-left: 60px;
   }
+=======
+  
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53

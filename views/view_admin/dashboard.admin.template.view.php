@@ -12,6 +12,10 @@
    <link href="/assets/img/favicon.png" rel="icon">
    <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
    <link href="/https://fonts.gstatic.com" rel="preconnect">
+<<<<<<< HEAD
+=======
+   <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53
    <link rel="stylesheet" href="/assets/assets_icons/css.css">
    <link href="/assets/assets_template/css/bootstrap.min.css" rel="stylesheet">
    <link href="/assets/assets_template/css/bootstrap-icons.css" rel="stylesheet">
@@ -21,8 +25,15 @@
    <link href="/assets/assets_template/css/remixicon.css" rel="stylesheet">
    <link href="/assets/assets_template/css/simple-datatables.css" rel="stylesheet">
    <link href="/assets/assets_template/css/style.css" rel="stylesheet">
+<<<<<<< HEAD
    <link rel="stylesheet" href="/node_modules/boxicons/css/boxicons.min.css">
 
+=======
+   <!-- <link href='/https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'> -->
+   <!-- <link rel="stylesheet" href="/assets/assets_icons/boxicons.min.css"> -->
+   <link rel="stylesheet" href="/node_modules/boxicons/css/boxicons.min.css">
+   <!-- <link rel="stylesheet" href="/assets/assets_boostrap/css/bootstrap.min.css"> -->
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53
 </head>
 
 <body>
@@ -125,6 +136,7 @@
             <div class="col-sm">
                <aside id="sidebar" class="sidebar">
                   <ul class="sidebar-nav" id="sidebar-nav">
+<<<<<<< HEAD
                      <li class="nav-item"> <a class="nav-link " href="/views/view_admin/dashboard.admin.template.view.php"> <i class='bx bx-home-alt icon'></i> <span>Acceuil</span> </a></li>
                      <li class="nav-item">
                         <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#"> <i class='bx bxs-cube-alt'></i><span>Parc</span><i class="bi bi-chevron-down ms-auto"></i> </a>
@@ -146,20 +158,60 @@
                            <li> <a href="forms-layouts.html"> <i class="bi bi-circle"></i><span>Generation rapport</span> </a></li>
                            <li> <a href="forms-validation.html"> <i class="bi bi-circle"></i><span>Planification intervention</span> </a></li>
                            <li> <a href="forms-validation.html"> <i class="bi bi-circle"></i><span>Historiques des incidents</span> </a></li>
+=======
+                     <li class="nav-item"> <a class="nav-link " href="dashboard.template.view.php"> <i class='bx bx-home-alt icon'></i> <span>Acceuil</span> </a></li>
+                     <li class="nav-item">
+                        <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#"> <i class='bx bxs-cube-alt'></i><span>Parc</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+                        <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                           <li> <a href="components-alerts.html"> <i class="bi bi-circle"></i><span>Ordinateurs</span> </a></li>
+                           <li> <a href="components-accordion.html"> <i class="bi bi-circle"></i><span>Moniteurs</span> </a></li>
+                           <li> <a href="components-badges.html"> <i class="bi bi-circle"></i><span>Logiciels</span> </a></li>
+                           <li> <a href="components-breadcrumbs.html"> <i class="bi bi-circle"></i><span>Materiels réseau</span> </a></li>
+                           <li> <a href="components-buttons.html"> <i class="bi bi-circle"></i><span>Peripheriques</span> </a></li>
+                           <li> <a href="components-cards.html"> <i class="bi bi-circle"></i><span>Imprimantes</span> </a></li>
+                           <li> <a href="components-carousel.html"> <i class="bi bi-circle"></i><span>Cartouches</span> </a></li>
+                           <li> <a href="components-list-group.html"> <i class="bi bi-circle"></i><span>Telephones</span> </a></li>
+                           <li> <a href="components-modal.html"> <i class="bi bi-circle"></i><span>Baies</span> </a></li>
+                           <li> <a href="components-tooltips.html"> <i class="bi bi-circle"></i><span>Cables</span> </a></li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#"> <i class='bx bx-headphone'></i><span>Assistance</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+                        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                           <li> <a href="forms-elements.html"> <i class="bi bi-circle"></i><span>Tableau de bord</span> </a></li>
+                           <li> <a href="forms-layouts.html"> <i class="bi bi-circle"></i><span>Créer un rapport</span> </a></li>
+                           <li> <a href="forms-validation.html"> <i class="bi bi-circle"></i><span>Planning</span> </a></li>
+                           <li> <a href="forms-validation.html"> <i class="bi bi-circle"></i><span>Statistiques</span> </a></li>
+                           <li> <a href="forms-validation.html"> <i class="bi bi-circle"></i><span>Incidents recurrents</span> </a></li>
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53
                         </ul>
                      </li>
                      <li class="nav-item">
                         <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#"> <i class="bi bi-layout-text-window-reverse"></i><span>Gestion</span><i class="bi bi-chevron-down ms-auto"></i> </a>
                         <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+<<<<<<< HEAD
                            <li> <a href="tables-general.html"> <i class='bx bx-radar'></i><span>Licences</span> </a></li>
                            <li> <a href="/views/view_client/accueil.client.view.php"> <i class='bx bx-group'></i><span>CLients</span> </a></li>
+=======
+                           <li> <a href="tables-general.html"> <i class="bi bi-circle"></i><span>Licences</span> </a></li>
+                           <li> <a href="tables-data.html"> <i class="bi bi-circle"></i><span>Budgets</span> </a></li>
+                           <li> <a href="/views/view_client/accueil.client.view.php"> <i class="bi bi-circle"></i><span>CLients</span> </a></li>
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53
                            <li> <a href="tables-data.html"> <i class="bi bi-circle"></i><span>Contrats</span> </a></li>
                            <li> <a href="tables-data.html"> <i class="bi bi-circle"></i><span>Documents</span> </a></li>
                            <li> <a href="tables-data.html"> <i class="bi bi-circle"></i><span>Logiciels</span> </a></li>
                            <li> <a href="tables-data.html"> <i class="bi bi-circle"></i><span>Machines</span> </a></li>
+<<<<<<< HEAD
                            <li> <a href="tables-data.html"> <i class="bi bi-circle"></i><span>Equipes</span> </a></li>
                            <li> <a href="tables-data.html"> <i class="bi bi-circle"></i><span>Parcs IT</span> </a></li>
                            <li> <a href="charts-chartjs.html"><i class='bx bxl-microsoft-teams'></i><span>Projets Infogerance</span> </a></li>
+=======
+                           <li> <a href="tables-data.html"> <i class="bi bi-circle"></i><span>Budgets</span> </a></li>
+                           <li> <a href="tables-data.html"> <i class="bi bi-circle"></i><span>Equipes</span> </a></li>
+                           <li> <a href="tables-data.html"> <i class="bi bi-circle"></i><span>Parcs IT</span> </a></li>
+                           <li> <a href="charts-chartjs.html"> <i class="bi bi-circle"></i><span>Projets Infogerance</span> </a></li>
+                           <li> <a href="tables-data.html"> <i class="bi bi-circle"></i><span>Edition des etats</span> </a></li>
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53
                            <li> <a href="tables-data.html"> <i class="bi bi-circle"></i><span>Interventions</span> </a></li>
                         </ul>
                      </li>
@@ -168,14 +220,25 @@
                         <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                            <li> <a href="charts-chartjs.html"> <i class="bi bi-circle"></i><span>Utilisateurs</span> </a></li>
                            <li> <a href="charts-apexcharts.html"> <i class="bi bi-circle"></i><span>Equipes</span> </a></li>
+<<<<<<< HEAD
                            <li> <a href="charts-echarts.html"> <i class='bx bx-cog'></i><span>Mise a jour</span> </a></li>
+=======
+                           <li> <a href="charts-echarts.html"> <i class="bi bi-circle"></i><span>Règles</span> </a></li>
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53
                         </ul>
                      </li>
                      <li class="nav-item">
                         <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#"> <i class="bi bi-gear"></i><span>Configuration</span><i class="bi bi-chevron-down ms-auto"></i> </a>
                         <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+<<<<<<< HEAD
                            <li> <a href="icons-boxicons.html"> <i class="bi bi-circle"></i><span>Liens externes</span> </a></li>
                            <li> <a href="icons-boxicons.html"> <i class="bi bi-circle"></i><span>Editions des etats</span> </a></li>
+=======
+                           <li> <a href="icons-bootstrap.html"> <i class="bi bi-circle"></i><span>Authentification</span> </a></li>
+                           <li> <a href="icons-remix.html"> <i class="bi bi-circle"></i><span>Notifications</span> </a></li>
+                           <li> <a href="icons-boxicons.html"> <i class="bi bi-circle"></i><span>Liens externes</span> </a></li>
+                           <li> <a href="icons-boxicons.html"> <i class="bi bi-circle"></i><span>Actions automatiques</span> </a></li>
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53
                            <li> <a href="icons-boxicons.html"> <i class="bi bi-circle"></i><span>Générale</span> </a></li>
                         </ul>
                      </li>
@@ -197,7 +260,11 @@
       <!-- Premier container -->
       <div class="container-fluid">
          <!-- Premiere ligne -->
+<<<<<<< HEAD
          <div class="row maDiv mt-1">
+=======
+         <div class="row maDiv mt-4">
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53
             <!-- Col1 de la premiere ligne -->
             <div class="col-sm mt-4">
                <div class="mb-3">
@@ -207,6 +274,7 @@
             <!-- Col2 de la premiere ligne -->
             <div class="col-sm mt-4">
                <div class="mb-3">
+<<<<<<< HEAD
                   <div class="card mt-5 text-center maCard maPosition" style="width: 20rem;">
                      <div class="card-header">
                         <i class='bx bx-laptop'></i>
@@ -260,6 +328,42 @@
                         <h5 class="card-title">Nombre Total</h5>
                         <p class="card-text">With supporting text bent.</p>
                         <a href="#" class="btn btn-primary text-center">Voir plus</a>
+=======
+                  <div class="mb-3 mt-4">
+                     <div class="card" style="width: 20rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                           <h5 class="card-title">Ordinateur</h5>
+                           <p class="card-text">Some quick exae card title acard's content.</p>
+                           <div class="d-flex justify-content-around">
+                              <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="mb-3">
+                     <div class="card mt-4" style="width: 20rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                           <h5 class="card-title">Ordinateur</h5>
+                           <p class="card-text">Some quick exae card title acard's content.</p>
+                           <div class="d-flex justify-content-around">
+                              <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="mb-3">
+                     <div class="card mt-4" style="width: 20rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                           <h5 class="card-title">Ordinateur</h5>
+                           <p class="card-text">Some quick exae card title acard's content.</p>
+                           <div class="d-flex justify-content-around">
+                              <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
+                           </div>
+                        </div>
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53
                      </div>
                   </div>
                </div>
@@ -267,6 +371,7 @@
             <!-- Col3 de la premiere ligne -->
             <div class="col-sm mt-4">
                <div class="mb-3">
+<<<<<<< HEAD
                   <div class="card mt-5 text-center maCard" style="width: 20rem;">
                      <div class="card-header">
                         <i class='bx bx-printer'></i>
@@ -320,12 +425,47 @@
                         <h5 class="card-title">Nombre Total</h5>
                         <p class="card-text">With supporting text bent.</p>
                         <a href="#" class="btn btn-primary text-center">Voir plus</a>
+=======
+                  <div class="card mt-4" style="width: 20rem;">
+                     <img src="..." class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Ordinateur</h5>
+                        <p class="card-text">Some quick exae card title acard's content.</p>
+                        <div class="d-flex justify-content-around">
+                           <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="mb-3">
+                  <div class="card mt-4" style="width: 20rem;">
+                     <img src="..." class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Ordinateur</h5>
+                        <p class="card-text">Some quick exae card title acard's content.</p>
+                        <div class="d-flex justify-content-around">
+                           <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="mb-3">
+                  <div class="card mt-4" style="width: 20rem;">
+                     <img src="..." class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Ordinateur</h5>
+                        <p class="card-text">Some quick exae card title acard's content.</p>
+                        <div class="d-flex justify-content-around">
+                           <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
+                        </div>
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53
                      </div>
                   </div>
                </div>
             </div>
             <!-- Col4 de la premiere ligne -->
             <div class="col-sm mt-4">
+<<<<<<< HEAD
                <div class="mb-3">
                   <div class="card mt-5 text-center maCard" style="width: 20rem;">
                      <div class="card-header">
@@ -380,12 +520,48 @@
                         <h5 class="card-title">Nombre Total</h5>
                         <p class="card-text">With supporting text bent.</p>
                         <a href="#" class="btn btn-primary text-center">Voir plus</a>
+=======
+               <div class="mb-3 mt-4">
+                  <div class="card" style="width: 20rem;">
+                     <img src="..." class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Ordinateur</h5>
+                        <p class="card-text">Some quick exae card title acard's content.</p>
+                        <div class="d-flex justify-content-around">
+                           <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="mb-3">
+                  <div class="card mt-4" style="width: 20rem;">
+                     <img src="..." class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Ordinateur</h5>
+                        <p class="card-text">Some quick exae card title acard's content.</p>
+                        <div class="d-flex justify-content-around">
+                           <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="mb-3">
+                  <div class="card mt-4" style="width: 20rem;">
+                     <img src="..." class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Ordinateur</h5>
+                        <p class="card-text">Some quick exae card title acard's content.</p>
+                        <div class="d-flex justify-content-around">
+                           <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
+                        </div>
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53
                      </div>
                   </div>
                </div>
             </div>
             <!-- Col5 de la premiere ligne -->
             <div class="col-sm mt-4">
+<<<<<<< HEAD
                <div class="mb-3">
                   <div class="card mt-5 text-center maCard" style="width: 20rem;">
                      <div class="card-header">
@@ -440,13 +616,51 @@
                         <h5 class="card-title">Nombre Total</h5>
                         <p class="card-text">With supporting text bent.</p>
                         <a href="#" class="btn btn-primary text-center">Voir plus</a>
+=======
+               <div class="mb-3 mt-4">
+                  <div class="card" style="width: 20rem;">
+                     <img src="..." class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Ordinateur</h5>
+                        <p class="card-text">Some quick exae card title acard's content.</p>
+                        <div class="d-flex justify-content-around">
+                           <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="mb-3">
+                  <div class="card mt-4" style="width: 20rem;">
+                     <img src="..." class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Ordinateur</h5>
+                        <p class="card-text">Some quick exae card title acard's content.</p>
+                        <div class="d-flex justify-content-around">
+                           <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="mb-3">
+                  <div class="card mt-4" style="width: 20rem;">
+                     <img src="..." class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Ordinateur</h5>
+                        <p class="card-text">Some quick exae card title acard's content.</p>
+                        <div class="d-flex justify-content-around">
+                           <span class="d-flex justify-content-end m-1"><a href="#" class="btn btn-primary">Voir plus</a></span>
+                        </div>
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53
                      </div>
                   </div>
                </div>
             </div>
    </section>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 729541d45d7f11bff478400917b428393180fe53
    <footer id="footer" class="footer bg-white">
       <div class="copyright"> Réalisé par Welldone MBOYI <strong><span>Developper</span></strong>. Merci infiniment</div>
       <div class="credits">Entreprise Informatique <a href="https://freeetemplates.com/">IT CORP</a></div>
